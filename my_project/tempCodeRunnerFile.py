@@ -1,0 +1,1 @@
+root_tk.iconbitmap(default='hacker.ico')  
