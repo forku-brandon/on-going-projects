@@ -15,7 +15,10 @@ root_tk.geometry("1200x720")#setting up the geometry of the window screen
 root_tk.minsize(920, 520)
 root_tk.title('the cyber king => authentication process')
 customtkinter.set_appearance_mode("dark")
-bg_image = Image.open("backgroundd.jpg").resize((1200, 750))
+screen_width = root_tk.winfo_screenwidth()
+screen_height = root_tk.winfo_screenheight()
+
+bg_image = Image.open("backgroundd.jpg").resize((screen_width , screen_height))
 image_TK = ImageTk.PhotoImage(bg_image)
 app =  tkinter.Label(root_tk,
                      text='hahaha',
