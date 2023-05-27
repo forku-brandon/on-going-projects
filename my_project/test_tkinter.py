@@ -17,7 +17,10 @@ root_tk.minsize(1020, 620)
 # root_tk.attributes('-fullscreen', True)
 root_tk.title('the cyber king')
 customtkinter.set_appearance_mode("dark")
-bg_image = Image.open("hackers.jpg").resize((1100, 700))
+screen_width = root_tk.winfo_screenwidth()
+screen_height = root_tk.winfo_screenheight()
+
+bg_image = Image.open("hackers.jpg").resize((screen_width, screen_height))
 image_TK = ImageTk.PhotoImage(bg_image)
 
 app =  tkinter.Label(root_tk,
