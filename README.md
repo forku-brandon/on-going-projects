@@ -1,3 +1,2 @@
-# master
-this is what i love doing! 
-
+# ON GOING PROJECTS
+Here are some of my on  going project! 
